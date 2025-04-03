@@ -1,3 +1,6 @@
+#ifndef JLGAME_H
+#define JLGAME_H
+
 #define ROWS 6                  //number of rows in all 2D arrays
 #define CHARS 9                 //number of characters allocated to all strings, also columns in all 2d arrays
 #define REPEATS 3               //number of repeats per round
@@ -15,3 +18,5 @@ unsigned short int check(char expected[CHARS], char given[CHARS]) {
     }
     return outcome;                                     //return value of outcome
 }
+
+#endif
