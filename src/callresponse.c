@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <jlgame.h>
+#include "jlgame.h"
 
 int main() {
     /*Declare string arrays*/
