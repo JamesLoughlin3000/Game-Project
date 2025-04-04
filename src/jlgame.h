@@ -11,7 +11,7 @@ unsigned short int check(char expected[CHARS], char given[CHARS]) {
 
     unsigned short int outcome = 1;                     //either 0 or 1, value returned at the end
 
-    for (int c=0; c<CHARS && given[c] != '\0'; c++) {   //loop for each character in the string(s) so long as there are no null chracters
+    for (int c=0; c<CHARS && (expected[c] != '\0' || given[c] != '\0'); c++) {   //loop for each character in the string(s) so long as there are no null chracters
         if (expected[c] != given[c]) {                  //if a pair of characters, and therefore the strings as a whole, are not equal
             outcome = 0;                                //set outcome to false
         }
