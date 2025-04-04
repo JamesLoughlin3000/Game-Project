@@ -2,7 +2,7 @@
 #define JLGAME_H
 
 #define ROWS 6                  //number of rows in all 2D arrays
-#define CHARS 9                 //number of characters allocated to all strings, also columns in all 2d arrays
+#define CHARS 8                 //number of characters allocated to all strings, also columns in all 2d arrays
 #define REPEATS 3               //number of repeats per round
 #define RANDOM_MAX 3            //maximum value of decider variable
 
